@@ -1,0 +1,156 @@
+/* * {outline: 1px solid red;} */
+
+body {
+    background: #116466;
+    font-family: 'PT Serif', serif;
+}
+
+/* TITLE */
+
+.two h1 {
+    text-transform: capitalize;
+    color: #D1E8E2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+.two h1:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 2px;
+    content: "";
+    background-color: #e8d1d100;
+}
+
+.two h1 span {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 3em;
+    padding-left: 0.25em;
+    color: #e8d1d1;
+    padding-bottom: 10px;
+}
+
+.alt-two h1 {
+    text-align: center;
+}
+
+.alt-two h1:before {
+    left: 50%;
+    margin-left: -30px;
+}
+
+
+
+/* DROPDOWN MENU */
+
+.dropbtn {
+    background-color: #D9B08C;
+    color: #2C3531;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D9B08C;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #2C3531;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #D1E8E2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #d9b08ce7;
+}
+
+
+
+/* GRID */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 20px;
+
+}
+
+.grid-item-1 {
+    grid-column: 2 / 3;
+}
+
+.grid-item-2 {
+    grid-column: 2 / 6;
+    font-size: 24px;
+    color: #D1E8E2;
+
+}
+
+.grid-item-3 {
+    grid-column: 2 / 4;
+    font-size: 24px;
+    color: #D1E8E2;
+}
+
+.grid-item-4 {
+    grid-column: 4 / 6;
+    font-size: 24px;
+    color: #D1E8E2;
+}
+
+.grid-item-5 {
+    grid-column: 2 / 3;
+    font-size: 24px;
+    color: #D1E8E2;
+    height: fit-content;
+}
+
+
+.grid-item-10 {
+    grid-column: 4 / 6;
+}
+
+
+/* LINK TEXT */
+
+
+.text {
+
+    text-align: center;
+}
+
+
+.linkcolor a:link {
+    color: #D1E8E2;
+}
+
+
+.linkcolor a:visited {
+    color: #FFCB9A;
+}
